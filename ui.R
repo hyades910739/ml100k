@@ -1,5 +1,8 @@
 library(shiny)
 
+udata3 = read.csv("udata3.csv",header=T)
+
+
 shinyUI(fluidPage(
   titlePanel("MovieLens"),
   

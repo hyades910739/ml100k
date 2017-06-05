@@ -2,7 +2,9 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 
-udata3 = read.csv("ml100k/udata3.csv",header=T)
+
+udata3 = read.csv("udata3.csv",header=T)
+attach(udata3)
 
 shinyServer(function(input,output){
   
